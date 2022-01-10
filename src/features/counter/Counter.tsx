@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import { useAppSelector, useAppDispatch } from '../../app/hooks';
 import {
   decrement,
@@ -10,8 +9,10 @@ import {
   selectCount,
 } from './counterSlice';
 import styles from './Counter.module.css';
+import { Outlet } from 'react-router-dom';
 
 export function Counter() {
+
   const count = useAppSelector(selectCount);
   const dispatch = useAppDispatch();
   const [incrementAmount, setIncrementAmount] = useState('2');
@@ -63,6 +64,9 @@ export function Counter() {
           Add If Odd
         </button>
       </div>
+
+      <Outlet/>
+
     </div>
   );
 }

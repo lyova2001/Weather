@@ -1,13 +1,11 @@
 import React from "react";
-import { Counter } from "./features/counter/Counter";
+import LayoutWrapper from './common/layout'
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Counter />
-      </header>
+      <LayoutWrapper />
     </div>
   );
 }
