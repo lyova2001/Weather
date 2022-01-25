@@ -1,5 +1,5 @@
 import React, { useState } from "react";
 
 export default function MonthForecast() {
-  return <div>Test component</div>;
+  return <div>MonthForecast component</div>;
 }
