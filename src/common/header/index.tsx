@@ -3,7 +3,6 @@ import { useLocation, useNavigate } from 'react-router-dom'
 import BottomNavigation from '@mui/material/BottomNavigation'
 import BottomNavigationAction from '@mui/material/BottomNavigationAction'
 
-import './style.scss'
 import { AppBar, Toolbar } from '@mui/material'
 
 export default function Header() {
