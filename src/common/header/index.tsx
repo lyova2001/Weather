@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
-import BottomNavigation from '@mui/material/BottomNavigation'
-import BottomNavigationAction from '@mui/material/BottomNavigationAction'
 
-import { AppBar, Toolbar } from '@mui/material'
+import {
+  AppBar,
+  Toolbar,
+  BottomNavigationAction,
+  BottomNavigation,
+} from '@mui/material'
 
 export default function Header() {
   const navigate = useNavigate()
